@@ -16,6 +16,18 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear{
+            NetworkManager.shared.getUser { result in
+                switch result {
+                case .success(let success):
+                    success.forEach { user  in
+                        print(user.name)
+                    }
+                case .failure(let failure):
+                    print(failure.localizedDescription)
+                }
+            }
+        }
     }
 }
 
