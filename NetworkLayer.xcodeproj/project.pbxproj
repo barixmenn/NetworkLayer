@@ -11,6 +11,10 @@
 		605D98D02A41CDDF006650BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98CF2A41CDDF006650BB /* ContentView.swift */; };
 		605D98D22A41CDE0006650BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605D98D12A41CDE0006650BB /* Assets.xcassets */; };
 		605D98D52A41CDE0006650BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605D98D42A41CDE0006650BB /* Preview Assets.xcassets */; };
+		605D98E22A41CE74006650BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E12A41CE74006650BB /* NetworkManager.swift */; };
+		605D98E52A41CE9D006650BB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E42A41CE9D006650BB /* Constant.swift */; };
+		605D98E72A41CEB8006650BB /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E62A41CEB8006650BB /* EndPoint.swift */; };
+		605D98EA2A41CEFB006650BB /* HTTPMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E92A41CEFB006650BB /* HTTPMethodType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		605D98CF2A41CDDF006650BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		605D98D12A41CDE0006650BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605D98D42A41CDE0006650BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		605D98E12A41CE74006650BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		605D98E42A41CE9D006650BB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		605D98E62A41CEB8006650BB /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		605D98E92A41CEFB006650BB /* HTTPMethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		605D98DD2A41CE1F006650BB /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				605D98E02A41CE6C006650BB /* Core */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -86,6 +95,7 @@
 		605D98DE2A41CE25006650BB /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				605D98E42A41CE9D006650BB /* Constant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -97,6 +107,24 @@
 				605D98CD2A41CDDF006650BB /* NetworkLayerApp.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		605D98E02A41CE6C006650BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				605D98E82A41CEF3006650BB /* HTTP */,
+				605D98E12A41CE74006650BB /* NetworkManager.swift */,
+				605D98E62A41CEB8006650BB /* EndPoint.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		605D98E82A41CEF3006650BB /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				605D98E92A41CEFB006650BB /* HTTPMethodType.swift */,
+			);
+			path = HTTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605D98EA2A41CEFB006650BB /* HTTPMethodType.swift in Sources */,
+				605D98E22A41CE74006650BB /* NetworkManager.swift in Sources */,
 				605D98D02A41CDDF006650BB /* ContentView.swift in Sources */,
+				605D98E72A41CEB8006650BB /* EndPoint.swift in Sources */,
 				605D98CE2A41CDDF006650BB /* NetworkLayerApp.swift in Sources */,
+				605D98E52A41CE9D006650BB /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
