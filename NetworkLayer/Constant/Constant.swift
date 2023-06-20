@@ -7,6 +7,4 @@
 
 import Foundation
 
-let BASE_URL = "https://api.escuelajs.co/api/v1"
-
-//path /products
+let BASE_URL = "https://jsonplaceholder.typicode.com"
