@@ -51,9 +51,10 @@
 		605D98CC2A41CDDF006650BB /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
-				605D98CD2A41CDDF006650BB /* NetworkLayerApp.swift */,
-				605D98CF2A41CDDF006650BB /* ContentView.swift */,
-				605D98D12A41CDE0006650BB /* Assets.xcassets */,
+				605D98DF2A41CE2C006650BB /* Sources */,
+				605D98DE2A41CE25006650BB /* Constant */,
+				605D98DD2A41CE1F006650BB /* Network */,
+				605D98DB2A41CE11006650BB /* Scene */,
 				605D98D32A41CDE0006650BB /* Preview Content */,
 			);
 			path = NetworkLayer;
@@ -65,6 +66,37 @@
 				605D98D42A41CDE0006650BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		605D98DB2A41CE11006650BB /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				605D98CF2A41CDDF006650BB /* ContentView.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		605D98DD2A41CE1F006650BB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		605D98DE2A41CE25006650BB /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		605D98DF2A41CE2C006650BB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				605D98D12A41CDE0006650BB /* Assets.xcassets */,
+				605D98CD2A41CDDF006650BB /* NetworkLayerApp.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
