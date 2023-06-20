@@ -18,6 +18,7 @@ protocol EndPointProtocol {
 
 enum EndPoint {
     case getUsers
+    case comments
 }
 
 extension EndPoint: EndPointProtocol {
@@ -29,12 +30,16 @@ extension EndPoint: EndPointProtocol {
         switch self {
         case .getUsers:
             return "/users"
+        case .comments:
+            return "/comments"
         }
     }
     
     var method: HTTPMethod {
         switch self {
         case .getUsers:
+            return .get
+        case .comments:
             return .get
         }
     }

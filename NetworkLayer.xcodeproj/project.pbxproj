@@ -16,6 +16,7 @@
 		605D98E72A41CEB8006650BB /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E62A41CEB8006650BB /* EndPoint.swift */; };
 		605D98EA2A41CEFB006650BB /* HTTPMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E92A41CEFB006650BB /* HTTPMethodType.swift */; };
 		605D98F02A41DB91006650BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98EF2A41DB91006650BB /* User.swift */; };
+		605D98F22A41DE23006650BB /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98F12A41DE23006650BB /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		605D98E62A41CEB8006650BB /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		605D98E92A41CEFB006650BB /* HTTPMethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodType.swift; sourceTree = "<group>"; };
 		605D98EF2A41DB91006650BB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		605D98F12A41DE23006650BB /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				605D98EF2A41DB91006650BB /* User.swift */,
+				605D98F12A41DE23006650BB /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				605D98EA2A41CEFB006650BB /* HTTPMethodType.swift in Sources */,
 				605D98E22A41CE74006650BB /* NetworkManager.swift in Sources */,
 				605D98D02A41CDDF006650BB /* ContentView.swift in Sources */,
+				605D98F22A41DE23006650BB /* Comment.swift in Sources */,
 				605D98E72A41CEB8006650BB /* EndPoint.swift in Sources */,
 				605D98CE2A41CDDF006650BB /* NetworkLayerApp.swift in Sources */,
 				605D98E52A41CE9D006650BB /* Constant.swift in Sources */,

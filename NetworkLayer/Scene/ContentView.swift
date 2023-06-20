@@ -17,11 +17,26 @@ struct ContentView: View {
         }
         .padding()
         .onAppear{
-            NetworkManager.shared.getUser { result in
-                switch result {
+            
+//            //user
+//            NetworkManager.shared.getUser { result in
+//                switch result {
+//                case .success(let success):
+//                    success.forEach { user  in
+//                        print(user.name)
+//                    }
+//                case .failure(let failure):
+//                    print(failure.localizedDescription)
+//                }
+//            }
+            
+            print("------- COMMENTS -------")
+            //comments
+            NetworkManager.shared.getComments { comment in
+                switch comment {
                 case .success(let success):
-                    success.forEach { user  in
-                        print(user.name)
+                    success.forEach { comment in
+                        print(comment.email)
                     }
                 case .failure(let failure):
                     print(failure.localizedDescription)

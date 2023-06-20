@@ -44,4 +44,9 @@ class NetworkManager {
         let endpoint = EndPoint.getUsers
         request(endpoint, completion: completion)
     }
+    
+    func getComments(completion: @escaping (Swift.Result<[Comment],Error>) -> Void) {
+        let endpoint =  EndPoint.comments
+        request(endpoint, completion: completion)
+    }
 }
