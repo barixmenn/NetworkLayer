@@ -15,6 +15,7 @@
 		605D98E52A41CE9D006650BB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E42A41CE9D006650BB /* Constant.swift */; };
 		605D98E72A41CEB8006650BB /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E62A41CEB8006650BB /* EndPoint.swift */; };
 		605D98EA2A41CEFB006650BB /* HTTPMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98E92A41CEFB006650BB /* HTTPMethodType.swift */; };
+		605D98F02A41DB91006650BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D98EF2A41DB91006650BB /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		605D98E42A41CE9D006650BB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		605D98E62A41CEB8006650BB /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		605D98E92A41CEFB006650BB /* HTTPMethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodType.swift; sourceTree = "<group>"; };
+		605D98EF2A41DB91006650BB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		605D98DD2A41CE1F006650BB /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				605D98EE2A41DB8D006650BB /* Model */,
 				605D98E02A41CE6C006650BB /* Core */,
 			);
 			path = Network;
@@ -127,6 +130,14 @@
 			path = HTTP;
 			sourceTree = "<group>";
 		};
+		605D98EE2A41DB8D006650BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				605D98EF2A41DB91006650BB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +154,8 @@
 			dependencies = (
 			);
 			name = NetworkLayer;
+			packageProductDependencies = (
+			);
 			productName = NetworkLayer;
 			productReference = 605D98CA2A41CDDF006650BB /* NetworkLayer.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +184,8 @@
 				Base,
 			);
 			mainGroup = 605D98C12A41CDDF006650BB;
+			packageReferences = (
+			);
 			productRefGroup = 605D98CB2A41CDDF006650BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -203,6 +218,7 @@
 				605D98E72A41CEB8006650BB /* EndPoint.swift in Sources */,
 				605D98CE2A41CDDF006650BB /* NetworkLayerApp.swift in Sources */,
 				605D98E52A41CE9D006650BB /* Constant.swift in Sources */,
+				605D98F02A41DB91006650BB /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
